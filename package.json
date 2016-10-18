@@ -1,0 +1,26 @@
+{
+	"name": "protractor_example",
+	"version": "1.1.0",
+	"description": "An example Protractor project that makes use of page objects...",
+    "scripts": {
+        "prepublish": "node_modules/.bin/webdriver-manager update"
+    },
+	"repository": {
+	    "type": "git",
+	    "url": "https://github.com/ivanello/wrestlers.git"
+	},
+	"keywords": [
+	    "protractor",
+	    "page objects",
+	    "tests",
+	    "automation",
+	    "webdriver"
+	],
+	"author": "Ivanello",
+    "dependencies": {},
+	"devDependencies": {
+	    "chance": "^0.7.5",
+	    "jasmine-spec-reporter": "^2.4.0",
+	    "protractor": "^4.0.1"
+	}
+}
